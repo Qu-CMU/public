@@ -24,7 +24,7 @@ These approximations include:
 * Only considering possible permutations as guesses, even though an impossible permutation can be a more optimal guess. 
 * Randomly selecting a subset of all possible permutations and running KMA over the subset to approximate the larger set.
 * Implement a best-effort approach of finding the best guess out of every guess the program had time to check, rather than out of every guess.
-* If the number of permutations is too large, we apply these concepts to code combinations in an effort to reduce the number of possible combinations.
+* If the number of permutations is too large, we apply these concepts to code combinations (rather than permutations) in an effort to reduce the number of possible combinations.
 
 Deduction primarily involves removing permutations/combinations from lists/sets if a guess is checked against the permutation/combination and the simulated response does not match the response given by the server. 
 __WeaponDeduction.py__ uses an entirely different algorithm based on set differences to reduce the combination search space until it can be enumerated.

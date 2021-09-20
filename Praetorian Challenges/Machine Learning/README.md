@@ -17,7 +17,8 @@ This code is for the [Praetorian Machine Learning Challenge](https://www.praetor
 2. Run __MachineLearning.py__.
 
 ### Model
-The pre-trained model has 3 fully connected layers. It was trained using the default function argument values.
+The pre-trained model has 3 fully connected layers. It was trained using the default function argument values. 
+Why did I program a NN from scratch? Because I can.
 
 ##### Input Layer
 The input layer has 768 nodes. These correspond to the 512 bits of the binary and a 256 multi-hot encoding of the byte values of the binary.
